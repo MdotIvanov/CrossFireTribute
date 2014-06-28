@@ -5,7 +5,7 @@ public class BulletController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		rigidbody2D.AddForce (Vector2.up);
+		rigidbody2D.AddForce (Vector2.up * 100);
 	}
 	
 	// Update is called once per frame
