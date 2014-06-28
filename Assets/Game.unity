@@ -109,7 +109,7 @@ Transform:
   - {fileID: 1347792771}
   - {fileID: 1395410444}
   m_Father: {fileID: 928663025}
-  m_RootOrder: 2
+  m_RootOrder: 6
 --- !u!1 &35186413
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,7 +884,7 @@ GameObject:
   - 4: {fileID: 581141980}
   - 61: {fileID: 581141978}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: BorderTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -898,7 +898,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 581141977}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
 --- !u!4 &581141980
@@ -908,11 +908,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 581141977}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 18.3970718, z: 0}
+  m_LocalPosition: {x: 0, y: 15.3000002, z: 0}
   m_LocalScale: {x: 37.6399994, y: 16.8999996, z: 10}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 928663025}
+  m_RootOrder: 2
 --- !u!1 &585996602
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,7 +923,7 @@ GameObject:
   - 4: {fileID: 585996604}
   - 61: {fileID: 585996603}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: BorderBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -937,7 +937,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 585996602}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
 --- !u!4 &585996604
@@ -947,11 +947,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 585996602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -17.8251457, z: 0}
+  m_LocalPosition: {x: 0, y: -15.3000002, z: 0}
   m_LocalScale: {x: 37.6399994, y: 16.8999996, z: 10}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 928663025}
+  m_RootOrder: 3
 --- !u!1 &605575799
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,6 +1639,10 @@ Transform:
   m_Children:
   - {fileID: 2144104596}
   - {fileID: 745789531}
+  - {fileID: 581141980}
+  - {fileID: 585996604}
+  - {fileID: 1410978142}
+  - {fileID: 2124950917}
   - {fileID: 14811470}
   - {fileID: 1249604881}
   - {fileID: 1861766139}
@@ -2127,7 +2131,7 @@ Transform:
   - {fileID: 448925491}
   - {fileID: 645556408}
   m_Father: {fileID: 928663025}
-  m_RootOrder: 3
+  m_RootOrder: 7
 --- !u!1 &1285071669
 GameObject:
   m_ObjectHideFlags: 0
@@ -2570,7 +2574,7 @@ GameObject:
   - 4: {fileID: 1410978142}
   - 61: {fileID: 1410978141}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: BorderLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2584,7 +2588,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1410978140}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
 --- !u!4 &1410978142
@@ -2594,11 +2598,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1410978140}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33.8391266, y: 0, z: 0}
+  m_LocalPosition: {x: -29.6000004, y: 0, z: 0}
   m_LocalScale: {x: 37.6399994, y: 16.8999996, z: 10}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 928663025}
+  m_RootOrder: 4
 --- !u!1 &1458512713
 GameObject:
   m_ObjectHideFlags: 0
@@ -3558,7 +3562,7 @@ Transform:
   - {fileID: 301004677}
   - {fileID: 1458512714}
   m_Father: {fileID: 928663025}
-  m_RootOrder: 4
+  m_RootOrder: 8
 --- !u!1 &1862853389
 GameObject:
   m_ObjectHideFlags: 0
@@ -3989,7 +3993,7 @@ GameObject:
   - 4: {fileID: 2124950917}
   - 61: {fileID: 2124950916}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: BorderRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4003,7 +4007,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2124950915}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
 --- !u!4 &2124950917
@@ -4013,11 +4017,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2124950915}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.222168, y: 0, z: 0}
+  m_LocalPosition: {x: 33.7000008, y: 0, z: 0}
   m_LocalScale: {x: 37.6399994, y: 16.8999996, z: 10}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 928663025}
+  m_RootOrder: 5
 --- !u!1 &2144104595
 GameObject:
   m_ObjectHideFlags: 0
