@@ -1041,7 +1041,7 @@ MonoBehaviour:
   spawnLeft: {fileID: 636896674}
   spawnRight: {fileID: 2146957845}
   bulletPrefab: {fileID: 100000, guid: 8b368b6fc8775ba4b86974941361d278, type: 2}
-  fireClip: {fileID: 0}
+  fireClip: {fileID: 8300000, guid: b3c66553a70424340bdbcd8ac509ace5, type: 3}
 --- !u!212 &366665266
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2152,6 +2152,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: fbc2c0522bfc87d4081b77feea2b1d4c, type: 2}
+      propertyPath: fireClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b3c66553a70424340bdbcd8ac509ace5, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fbc2c0522bfc87d4081b77feea2b1d4c, type: 2}
   m_RootGameObject: {fileID: 366665261}
