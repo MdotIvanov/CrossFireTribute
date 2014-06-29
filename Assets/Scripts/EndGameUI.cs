@@ -7,6 +7,30 @@ public class EndGameUI : MonoBehaviour {
 	public static float maxSpawn = 2;
 	public static float enemyBulletForce = 200;
 
+	public static void StartEasy ()
+	{
+		minSpawn = 2;
+		maxSpawn = 5;
+		enemyBulletForce = 100;
+		Application.LoadLevel ("Game");
+	}
+
+	public static void StartNormal ()
+	{
+		minSpawn = 1;
+		maxSpawn = 3;
+		enemyBulletForce = 200;
+		Application.LoadLevel ("Game");
+	}
+
+	public static void StartDifficult ()
+	{
+		minSpawn = 0.2f;
+		maxSpawn = 0.7f;
+		enemyBulletForce = 400;
+		Application.LoadLevel ("Game");
+	}
+
 	void OnGUI() {
 		string yourFinalScoreIs = string.Format ("Your score is {0}", finalScore);
 
@@ -20,24 +44,15 @@ public class EndGameUI : MonoBehaviour {
 		GUI.Label (new Rect (xStart, yStart, maxWidth, height), yourFinalScoreIs);
 		yStart += space + height;
 		if (GUI.Button(new Rect(xStart, yStart, maxWidth, height), "Easy")) {
-			minSpawn = 2;
-			maxSpawn = 5;
-			enemyBulletForce = 100;
-			Application.LoadLevel("Game");
+			StartEasy ();
 		}
 		yStart += space + height;
 		if (GUI.Button(new Rect(xStart, yStart, maxWidth, height), "Normal")) {
-			minSpawn = 1;
-			maxSpawn = 3;
-			enemyBulletForce = 200;
-			Application.LoadLevel("Game");
+			StartNormal ();
 		}
 		yStart += space + height;
 		if (GUI.Button(new Rect(xStart, yStart, maxWidth, height), "Difficult")) {
-			minSpawn = 0.2f;
-			maxSpawn = 0.7f;
-			enemyBulletForce = 400;
-			Application.LoadLevel("Game");
+			StartDifficult ();
 		}
 		yStart += space + height;
 		if (GUI.Button(new Rect(xStart, yStart, maxWidth, height), "Quit")) {
