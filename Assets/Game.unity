@@ -422,6 +422,7 @@ GameObject:
   - 4: {fileID: 85842286}
   - 61: {fileID: 85842287}
   - 114: {fileID: 85842288}
+  - 114: {fileID: 85842289}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -466,6 +467,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 2
+--- !u!114 &85842289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 85842285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: .5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 2
 --- !u!1 &129364147
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,6 +650,7 @@ GameObject:
   - 4: {fileID: 226628423}
   - 61: {fileID: 226628424}
   - 114: {fileID: 226628425}
+  - 114: {fileID: 226628426}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -679,6 +695,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 3
+--- !u!114 &226628426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 226628422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: -.5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 1
 --- !u!1 &238912202
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,6 +781,7 @@ GameObject:
   - 4: {fileID: 290558441}
   - 61: {fileID: 290558442}
   - 114: {fileID: 290558443}
+  - 114: {fileID: 290558444}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -795,6 +826,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 1
+--- !u!114 &290558444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 290558440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: .5, y: 0, z: 0}
+  horizontalSnap: 1
+  verticalSnap: 0
 --- !u!1 &301004676
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,6 +914,7 @@ GameObject:
   - 4: {fileID: 308690419}
   - 61: {fileID: 308690420}
   - 114: {fileID: 308690421}
+  - 114: {fileID: 308690422}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -913,6 +959,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 1
+--- !u!114 &308690422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 308690418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: .5, y: 0, z: 0}
+  horizontalSnap: 1
+  verticalSnap: 0
 --- !u!1 &346418526
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,6 +983,7 @@ GameObject:
   - 4: {fileID: 346418527}
   - 61: {fileID: 346418528}
   - 114: {fileID: 346418529}
+  - 114: {fileID: 346418530}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -967,6 +1028,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 1
+--- !u!114 &346418530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 346418526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: .5, y: 0, z: 0}
+  horizontalSnap: 1
+  verticalSnap: 0
 --- !u!1 &352050336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,7 +1087,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 352050336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.39288783, y: 1.9797349, z: 0}
+  m_LocalPosition: {x: -1, y: 2, z: 0}
   m_LocalScale: {x: 5.94363546, y: 5.94363165, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1337,6 +1412,7 @@ GameObject:
   - 4: {fileID: 535008057}
   - 61: {fileID: 535008058}
   - 114: {fileID: 535008059}
+  - 114: {fileID: 535008060}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -1381,6 +1457,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 2
+--- !u!114 &535008060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535008056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: .5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 2
 --- !u!1 &550813548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1494,6 +1584,7 @@ GameObject:
   - 4: {fileID: 583534497}
   - 61: {fileID: 583534498}
   - 114: {fileID: 583534499}
+  - 114: {fileID: 583534500}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -1538,6 +1629,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 3
+--- !u!114 &583534500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 583534496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: -.5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 1
 --- !u!1 &585996602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,6 +1847,7 @@ GameObject:
   - 4: {fileID: 692239367}
   - 61: {fileID: 692239368}
   - 114: {fileID: 692239369}
+  - 114: {fileID: 692239370}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -1786,6 +1892,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 2
+--- !u!114 &692239370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 692239366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: .5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 2
 --- !u!1001 &709751583
 Prefab:
   m_ObjectHideFlags: 0
@@ -2120,6 +2240,7 @@ GameObject:
   - 4: {fileID: 790102128}
   - 61: {fileID: 790102129}
   - 114: {fileID: 790102130}
+  - 114: {fileID: 790102131}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -2164,6 +2285,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 2
+--- !u!114 &790102131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 790102127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: .5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 2
 --- !u!1 &849709925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2174,6 +2309,7 @@ GameObject:
   - 4: {fileID: 849709926}
   - 61: {fileID: 849709927}
   - 114: {fileID: 849709928}
+  - 114: {fileID: 849709929}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -2218,6 +2354,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 1
+--- !u!114 &849709929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849709925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: .5, y: 0, z: 0}
+  horizontalSnap: 1
+  verticalSnap: 0
 --- !u!1 &856730461
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,7 +2706,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 928663024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 985790456}
@@ -2649,6 +2799,7 @@ GameObject:
   - 4: {fileID: 969843518}
   - 61: {fileID: 969843519}
   - 114: {fileID: 969843520}
+  - 114: {fileID: 969843521}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -2693,6 +2844,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 2
+--- !u!114 &969843521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 969843517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: .5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 2
 --- !u!1 &977283864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2703,6 +2868,7 @@ GameObject:
   - 4: {fileID: 977283865}
   - 61: {fileID: 977283866}
   - 114: {fileID: 977283867}
+  - 114: {fileID: 977283868}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -2747,6 +2913,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 2
+--- !u!114 &977283868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 977283864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: .5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 2
 --- !u!1 &979112464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2757,6 +2937,7 @@ GameObject:
   - 4: {fileID: 979112465}
   - 61: {fileID: 979112466}
   - 114: {fileID: 979112467}
+  - 114: {fileID: 979112468}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -2801,6 +2982,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 0
+--- !u!114 &979112468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 979112464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: -.5, y: 0, z: 0}
+  horizontalSnap: 2
+  verticalSnap: 0
 --- !u!1 &985111919
 GameObject:
   m_ObjectHideFlags: 0
@@ -2811,6 +3006,7 @@ GameObject:
   - 4: {fileID: 985111920}
   - 61: {fileID: 985111921}
   - 114: {fileID: 985111922}
+  - 114: {fileID: 985111923}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -2855,6 +3051,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 3
+--- !u!114 &985111923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 985111919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: -.5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 1
 --- !u!1 &985790455
 GameObject:
   m_ObjectHideFlags: 0
@@ -2896,6 +3106,7 @@ GameObject:
   - 4: {fileID: 1016136622}
   - 61: {fileID: 1016136623}
   - 114: {fileID: 1016136624}
+  - 114: {fileID: 1016136625}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -2940,6 +3151,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 0
+--- !u!114 &1016136625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1016136621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: -.5, y: 0, z: 0}
+  horizontalSnap: 2
+  verticalSnap: 0
 --- !u!1 &1051774103
 GameObject:
   m_ObjectHideFlags: 0
@@ -3357,6 +3582,7 @@ GameObject:
   - 4: {fileID: 1201924534}
   - 61: {fileID: 1201924535}
   - 114: {fileID: 1201924536}
+  - 114: {fileID: 1201924537}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -3401,6 +3627,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 0
+--- !u!114 &1201924537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1201924533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: -.5, y: 0, z: 0}
+  horizontalSnap: 2
+  verticalSnap: 0
 --- !u!1 &1221520929
 GameObject:
   m_ObjectHideFlags: 0
@@ -4104,6 +4344,7 @@ GameObject:
   - 4: {fileID: 1423780198}
   - 61: {fileID: 1423780199}
   - 114: {fileID: 1423780200}
+  - 114: {fileID: 1423780201}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -4148,6 +4389,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 3
+--- !u!114 &1423780201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1423780197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: -.5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 1
 --- !u!1 &1458512713
 GameObject:
   m_ObjectHideFlags: 0
@@ -4286,6 +4541,7 @@ GameObject:
   - 4: {fileID: 1486911647}
   - 61: {fileID: 1486911648}
   - 114: {fileID: 1486911649}
+  - 114: {fileID: 1486911650}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -4330,6 +4586,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 2
+--- !u!114 &1486911650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1486911646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: .5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 2
 --- !u!1 &1500837874
 GameObject:
   m_ObjectHideFlags: 0
@@ -4628,6 +4898,7 @@ GameObject:
   - 4: {fileID: 1592279846}
   - 61: {fileID: 1592279847}
   - 114: {fileID: 1592279848}
+  - 114: {fileID: 1592279849}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -4672,6 +4943,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 3
+--- !u!114 &1592279849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1592279845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: -.5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 1
 --- !u!1 &1630074012
 GameObject:
   m_ObjectHideFlags: 0
@@ -4894,6 +5179,7 @@ GameObject:
   - 4: {fileID: 1651925474}
   - 61: {fileID: 1651925475}
   - 114: {fileID: 1651925476}
+  - 114: {fileID: 1651925477}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -4938,6 +5224,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 3
+--- !u!114 &1651925477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1651925473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: -.5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 1
 --- !u!1 &1661173881
 GameObject:
   m_ObjectHideFlags: 0
@@ -4948,6 +5248,7 @@ GameObject:
   - 4: {fileID: 1661173882}
   - 61: {fileID: 1661173883}
   - 114: {fileID: 1661173884}
+  - 114: {fileID: 1661173885}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -4992,6 +5293,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 2
+--- !u!114 &1661173885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1661173881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: .5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 2
 --- !u!1 &1766248485
 GameObject:
   m_ObjectHideFlags: 0
@@ -5066,6 +5381,7 @@ GameObject:
   - 4: {fileID: 1771457164}
   - 61: {fileID: 1771457165}
   - 114: {fileID: 1771457166}
+  - 114: {fileID: 1771457167}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -5110,6 +5426,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 0
+--- !u!114 &1771457167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1771457163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: -.5, y: 0, z: 0}
+  horizontalSnap: 2
+  verticalSnap: 0
 --- !u!1 &1803538461
 GameObject:
   m_ObjectHideFlags: 0
@@ -5498,6 +5828,7 @@ GameObject:
   - 4: {fileID: 1920816441}
   - 61: {fileID: 1920816442}
   - 114: {fileID: 1920816443}
+  - 114: {fileID: 1920816444}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -5542,6 +5873,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 3
+--- !u!114 &1920816444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1920816440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: -.5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 1
 --- !u!1 &1939403617
 GameObject:
   m_ObjectHideFlags: 0
@@ -5616,6 +5961,7 @@ GameObject:
   - 4: {fileID: 1960766080}
   - 61: {fileID: 1960766081}
   - 114: {fileID: 1960766082}
+  - 114: {fileID: 1960766083}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Respawn
@@ -5660,6 +6006,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDirection: 3
+--- !u!114 &1960766083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960766079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: -.5, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 1
 --- !u!1 &2000950933
 GameObject:
   m_ObjectHideFlags: 0
