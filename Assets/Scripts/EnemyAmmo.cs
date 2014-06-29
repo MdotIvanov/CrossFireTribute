@@ -8,8 +8,7 @@ public class EnemyAmmo : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		//var dir = transform.rotation * Vector2.up;
-		//rigidbody2D.AddForce (dir * forceMultiplier);
+		forceMultiplier = EndGameUI.enemyBulletForce;
 	}
 	
 	void OnTriggerEnter2D(Collider2D other){

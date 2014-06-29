@@ -20,6 +20,9 @@ public class MasterSpawnerController : MonoBehaviour {
 		cameraHeightOver2 = c.orthographicSize;
 		cameraWidthOver2 = cameraHeightOver2 * c.aspect;
 
+		minWait = EndGameUI.minSpawn;
+		maxWait = EndGameUI.maxSpawn;
+
 		StartCoroutine (SpawnNext());
 	}
 
