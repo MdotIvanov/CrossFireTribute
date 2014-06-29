@@ -1,4 +1,14 @@
 fileFormatVersion: 2
 guid: 66ccf414007df184c8fca424f22dfdaf
-DefaultImporter:
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - spawnUp: {instanceID: 0}
+  - spawnDown: {instanceID: 0}
+  - spawnLeft: {instanceID: 0}
+  - spawnRight: {instanceID: 0}
+  - bulletPrefab: {instanceID: 0}
+  - fireClip: {fileID: 8300000, guid: b3c66553a70424340bdbcd8ac509ace5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
   userData: 
