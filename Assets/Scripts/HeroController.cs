@@ -11,7 +11,7 @@ public class HeroController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+
 	}
 
 	void Update() {
@@ -34,23 +34,30 @@ public class HeroController : MonoBehaviour {
 
 		var pos = transform.position;
 
-		if(x != 0.0f)
+		//transform.rotation = Quaternion.identity;
+
+		if (x > 0 ) 
 		{
-			//rigidbody2D.AddForce(Mathf.Sign(x) * Vector2.right * force);
+			transform.rotation = Quaternion.Euler(0,0,270);
 			pos.x += Mathf.Sign(x) * speed;
 		}
-
-		if(y != 0.0f)
+		if (x < 0 ) 
 		{
-			//rigidbody2D.AddForce(Mathf.Sign(y) * Vector2.up * force);
+			transform.rotation = Quaternion.Euler(0,0,90);
+			pos.x += Mathf.Sign(x) * speed;
+		}
+		if (y > 0 ) 
+		{
+			transform.rotation = Quaternion.Euler(0,0,0);
+			pos.y +=  Mathf.Sign(y) * speed;
+		}
+		if (y < 0 ) 
+		{
+			transform.rotation = Quaternion.Euler(180,0,0);
 			pos.y +=  Mathf.Sign(y) * speed;
 		}
 
 		transform.position = pos;
-		transform.rotation = Quaternion.identity;
 	}
 
-	void OnTriggerEnter(Collider other){
-		Destroy (this.rigidbody2D);
-		}
 }
