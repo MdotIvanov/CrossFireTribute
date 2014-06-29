@@ -7,7 +7,8 @@ public class HeroController : MonoBehaviour {
 	public float speed; 
 	public Transform spawnUp, spawnDown, spawnLeft, spawnRight;
 	public GameObject bulletPrefab;
-	public AudioClip fireClip;
+    public AudioClip fireClip;
+    public AudioClip deathClip;
 	
 	// Use this for initialization
 	void Start () {
@@ -75,6 +76,11 @@ public class HeroController : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter(Collider other){
-		Destroy (this.rigidbody2D);
-	}
+        Destroy(this.rigidbody2D);
+    }
+
+    void OnDestroy()
+    {
+        AudioSource.PlayClipAtPoint(deathClip, new Vector3(0, 0, 0));
+    }
 }

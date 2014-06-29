@@ -31,7 +31,9 @@ public class EnemyControllerBase : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D collision) {
 		if (collision.gameObject.tag == "Ammo") {
 			Destroy(gameObject);
-		} else if (collision.gameObject.tag == "Player") {
+        }
+        else if (collision.gameObject.tag == "Player")
+        {
 			Destroy (collision.gameObject);
 		}
 	}

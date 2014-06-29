@@ -18,10 +18,10 @@ public class EnemyAmmo : MonoBehaviour {
 
 		if (otherTagName == "Player" ){
 			Destroy (other.gameObject);
-		}
+        }
 
 		if (System.Array.IndexOf(destroyTags, otherTagName) != -1) {
 			Destroy(gameObject);
-		}
+        }
 	}
 }

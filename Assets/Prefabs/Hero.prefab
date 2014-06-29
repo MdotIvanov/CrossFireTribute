@@ -25,9 +25,9 @@ GameObject:
   - 4: {fileID: 400002}
   - 212: {fileID: 21200000}
   - 114: {fileID: 11400000}
+  - 82: {fileID: 8200000}
   - 50: {fileID: 5000000}
   - 61: {fileID: 6100000}
-  - 82: {fileID: 8200000}
   - 95: {fileID: 9500000}
   m_Layer: 0
   m_Name: Hero
@@ -262,6 +262,7 @@ MonoBehaviour:
   spawnRight: {fileID: 400008}
   bulletPrefab: {fileID: 100000, guid: 8b368b6fc8775ba4b86974941361d278, type: 2}
   fireClip: {fileID: 0}
+  dethClip: {fileID: 0}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
