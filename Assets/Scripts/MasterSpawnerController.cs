@@ -19,9 +19,13 @@ public class MasterSpawnerController : MonoBehaviour {
 			int nextSpawnPoint = Random.Range (0, spawnPositions.Length);
 			int nextEnemy = Random.Range (0, enemies.Length);
 
-			Instantiate (enemies [nextEnemy], 
-			            spawnPositions [nextSpawnPoint].transform.position,
-			            spawnPositions [nextSpawnPoint].transform.rotation);
+			var spawner = (spawnPositions[nextSpawnPoint]);
+
+			var enemy = (GameObject)Instantiate (enemies [nextEnemy], 
+			            spawner.transform.position,
+			            spawner.transform.rotation);
+
+			enemy.GetComponent<EnemyControllerBase>().ammoDirection = spawner.GetComponent<IndividualSpawner>().bulletDirection;
 
 			yield return new WaitForSeconds (Random.Range (minWait, maxWait));
 		}
