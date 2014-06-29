@@ -13,11 +13,11 @@ public class EnemyControllerBase : MonoBehaviour {
 	
 	}
 
-	void OnTriggerEnter2D(Collision2D collision) {
-		if (collider.gameObject.tag == "Ammo") {
+	void OnTriggerEnter2D(Collider2D collision) {
+		if (collision.gameObject.tag == "Ammo") {
 			Destroy(gameObject);
-		} else if (collider.gameObject.tag == "Player") {
-			Destroy (collider.gameObject);
+		} else if (collision.gameObject.tag == "Player") {
+			Destroy (collision.gameObject);
 		}
 	}
 }
