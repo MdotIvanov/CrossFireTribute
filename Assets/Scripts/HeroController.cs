@@ -37,6 +37,13 @@ public class HeroController : MonoBehaviour {
 			audio.clip = fireClip;
 			audio.Play();
 		}
+
+		if (Input.GetButtonDown("Pause")) {
+			if (Time.timeScale == 0)
+				Time.timeScale = 1;
+			else
+				Time.timeScale = 0;
+		}
 	}
 	
 	// Update is called once per frame
@@ -46,7 +53,7 @@ public class HeroController : MonoBehaviour {
 		var y = Input.GetAxis("Vertical");
 		
 		var pos = transform.position;
-		
+				
 		if(x > 0.0f)
 		{
 			//rigidbody2D.AddForce(Mathf.Sign(x) * Vector2.right * force);
