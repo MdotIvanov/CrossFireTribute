@@ -36,6 +36,7 @@ public class PlayMusic : MonoBehaviour {
 	{
 		if (!instance)	return;
 		instance.score += points;
+		EndGameUI.finalScore = instance.score;
 	}
 
 }
