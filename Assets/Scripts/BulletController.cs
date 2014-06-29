@@ -4,6 +4,7 @@ using System.Collections;
 public class BulletController : MonoBehaviour {
 
 	public float forceMultiplier = 100f;
+	public string[] killTags = { "Border", "Block", "Enemy" };
 
 	// Use this for initialization
 	void Start () {
@@ -12,7 +13,7 @@ public class BulletController : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter2D(Collider2D other){
-		if (other.gameObject.tag != "Player" ){
+		if (System.Array.IndexOf(killTags, other.gameObject.tag) != -1) {
 			Destroy (gameObject);
         }
 	}
