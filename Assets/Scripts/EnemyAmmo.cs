@@ -8,13 +8,12 @@ public class EnemyAmmo : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		var dir = transform.rotation * Vector2.up;
-		rigidbody2D.AddForce (dir * forceMultiplier);
+		//var dir = transform.rotation * Vector2.up;
+		//rigidbody2D.AddForce (dir * forceMultiplier);
 	}
 	
 	void OnTriggerEnter2D(Collider2D other){
 		var otherTagName = other.gameObject.tag;
-
 
 		if (otherTagName == "Player" ){
 			Destroy (other.gameObject);
