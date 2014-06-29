@@ -46,20 +46,31 @@ public class HeroController : MonoBehaviour {
 
 		var pos = transform.position;
 
-		if(x != 0.0f)
+		if(x > 0.0f)
 		{
 			//rigidbody2D.AddForce(Mathf.Sign(x) * Vector2.right * force);
 			pos.x += Mathf.Sign(x) * speed;
+			transform.rotation = Quaternion.Euler(0,0,270);
+		}if(x < 0.0f)
+		{
+			//rigidbody2D.AddForce(Mathf.Sign(y) * Vector2.up * force);
+			pos.x +=  Mathf.Sign(x) * speed;
+			transform.rotation =  Quaternion.Euler(0,0,90);
 		}
 
-		if(y != 0.0f)
+		if(y > 0.0f)
 		{
 			//rigidbody2D.AddForce(Mathf.Sign(y) * Vector2.up * force);
 			pos.y +=  Mathf.Sign(y) * speed;
+			transform.rotation =  Quaternion.Euler(0,0,0);
+		}if(y < 0.0f)
+		{
+			//rigidbody2D.AddForce(Mathf.Sign(y) * Vector2.up * force);
+			pos.y +=  Mathf.Sign(y) * speed;
+			transform.rotation =  Quaternion.Euler(180,0,0);
 		}
 
 		transform.position = pos;
-		transform.rotation = Quaternion.identity;
 	}
 
 	void OnTriggerEnter(Collider other){
