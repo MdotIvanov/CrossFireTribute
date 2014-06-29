@@ -82,5 +82,6 @@ public class HeroController : MonoBehaviour {
     void OnDestroy()
     {
 		PlayMusic.Play (deathClip, transform.position);
+		Application.LoadLevel("Game");
     }
 }

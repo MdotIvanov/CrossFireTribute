@@ -16,7 +16,9 @@ public class EnemyAmmo : MonoBehaviour {
 		var otherTagName = other.gameObject.tag;
 
 		if (otherTagName == "Player" ){
+
 			Destroy (other.gameObject);
+
         }
 
 		if (System.Array.IndexOf(destroyTags, otherTagName) != -1) {
