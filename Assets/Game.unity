@@ -350,8 +350,8 @@ MonoBehaviour:
   - {fileID: 100000, guid: 4a8c18e32d327a549b5111545546faa2, type: 2}
   - {fileID: 100000, guid: c644385bc8cbc474b919ab1431cbeaf2, type: 2}
   - {fileID: 100000, guid: ef24e85d27328794aa3d70c9b8b8bab2, type: 2}
-  minWait: 1
-  maxWait: 3
+  minWait: .400000006
+  maxWait: 1
   spawnerOffset: {x: 0, y: 0, z: 0}
 --- !u!4 &71205583
 Transform:
@@ -2014,6 +2014,14 @@ Prefab:
     - target: {fileID: 400000, guid: 7ce8efd0a03041b49be61b2f51fd176c, type: 2}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 7ce8efd0a03041b49be61b2f51fd176c, type: 2}
+      propertyPath: minWait
+      value: .400000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 7ce8efd0a03041b49be61b2f51fd176c, type: 2}
+      propertyPath: maxWait
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7ce8efd0a03041b49be61b2f51fd176c, type: 2}
