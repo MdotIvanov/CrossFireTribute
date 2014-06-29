@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: .5, z: 0}
+  offset: {x: 0, y: .800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 2
 --- !u!1 &129364147
@@ -707,7 +707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: -.5, z: 0}
+  offset: {x: 0, y: -.800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 1
 --- !u!1 &238912202
@@ -838,7 +838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: .5, y: 0, z: 0}
+  offset: {x: .800000012, y: 0, z: 0}
   horizontalSnap: 1
   verticalSnap: 0
 --- !u!1 &301004676
@@ -971,7 +971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: .5, y: 0, z: 0}
+  offset: {x: .800000012, y: 0, z: 0}
   horizontalSnap: 1
   verticalSnap: 0
 --- !u!1 &346418526
@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: .5, y: 0, z: 0}
+  offset: {x: .800000012, y: 0, z: 0}
   horizontalSnap: 1
   verticalSnap: 0
 --- !u!1 &352050336
@@ -1454,7 +1454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: .5, z: 0}
+  offset: {x: 0, y: .800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 2
 --- !u!1 &550813548
@@ -1642,7 +1642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: -.5, z: 0}
+  offset: {x: 0, y: -.800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 1
 --- !u!1 &585996602
@@ -1921,7 +1921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: .5, z: 0}
+  offset: {x: 0, y: .800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 2
 --- !u!1001 &709751583
@@ -2322,7 +2322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: .5, z: 0}
+  offset: {x: 0, y: .800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 2
 --- !u!1 &849709925
@@ -2391,7 +2391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: .5, y: 0, z: 0}
+  offset: {x: .800000012, y: 0, z: 0}
   horizontalSnap: 1
   verticalSnap: 0
 --- !u!1 &856730461
@@ -2910,7 +2910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: .5, z: 0}
+  offset: {x: 0, y: .800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 2
 --- !u!1 &977283864
@@ -2979,7 +2979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: .5, z: 0}
+  offset: {x: 0, y: .800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 2
 --- !u!1 &979112464
@@ -3048,7 +3048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: -.5, y: 0, z: 0}
+  offset: {x: -.800000012, y: 0, z: 0}
   horizontalSnap: 2
   verticalSnap: 0
 --- !u!1 &985111919
@@ -3117,7 +3117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: -.5, z: 0}
+  offset: {x: 0, y: -.800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 1
 --- !u!1 &985790455
@@ -3217,7 +3217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: -.5, y: 0, z: 0}
+  offset: {x: -.800000012, y: 0, z: 0}
   horizontalSnap: 2
   verticalSnap: 0
 --- !u!1 &1051774103
@@ -3693,7 +3693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: -.5, y: 0, z: 0}
+  offset: {x: -.800000012, y: 0, z: 0}
   horizontalSnap: 2
   verticalSnap: 0
 --- !u!1 &1204253245
@@ -4569,7 +4569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: -.5, z: 0}
+  offset: {x: 0, y: -.800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 1
 --- !u!1 &1458512713
@@ -4766,7 +4766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: .5, z: 0}
+  offset: {x: 0, y: .800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 2
 --- !u!1 &1500837874
@@ -5123,7 +5123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: -.5, z: 0}
+  offset: {x: 0, y: -.800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 1
 --- !u!1 &1630074012
@@ -5404,7 +5404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: -.5, z: 0}
+  offset: {x: 0, y: -.800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 1
 --- !u!1 &1661173881
@@ -5473,7 +5473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: .5, z: 0}
+  offset: {x: 0, y: .800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 2
 --- !u!1 &1680456846
@@ -5704,7 +5704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: -.5, y: 0, z: 0}
+  offset: {x: -.800000012, y: 0, z: 0}
   horizontalSnap: 2
   verticalSnap: 0
 --- !u!1 &1803538461
@@ -6151,7 +6151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: -.5, z: 0}
+  offset: {x: 0, y: -.800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 1
 --- !u!1 &1939403617
@@ -6284,7 +6284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: -.5, z: 0}
+  offset: {x: 0, y: -.800000012, z: 0}
   horizontalSnap: 0
   verticalSnap: 1
 --- !u!1 &2000950933

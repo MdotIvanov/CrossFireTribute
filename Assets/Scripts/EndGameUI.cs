@@ -15,7 +15,7 @@ public class EndGameUI : MonoBehaviour {
 		float space = 10;
 
 		float xStart = (Screen.width - maxWidth) / 2;
-		float yStart = (Screen.height - 3 * height + 2 * space) / 2;
+		float yStart = (Screen.height - 5 * height + 4 * space) / 2;
 
 		GUI.Label (new Rect (xStart, yStart, maxWidth, height), yourFinalScoreIs);
 		yStart += space + height;
@@ -35,8 +35,8 @@ public class EndGameUI : MonoBehaviour {
 		yStart += space + height;
 		if (GUI.Button(new Rect(xStart, yStart, maxWidth, height), "Difficult")) {
 			minSpawn = 0.2f;
-			maxSpawn = 0.8f;
-			enemyBulletForce = 300;
+			maxSpawn = 0.7f;
+			enemyBulletForce = 400;
 			Application.LoadLevel("Game");
 		}
 		yStart += space + height;
