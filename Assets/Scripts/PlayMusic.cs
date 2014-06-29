@@ -5,6 +5,12 @@ public class PlayMusic : MonoBehaviour {
 
 	private static PlayMusic instance;
 
+	void OnGUI () {
+		if (GUI.Button (new Rect (25, 25, 100, 30), "Button")) {
+			// This code is executed when the Button is clicked
+		}
+	}
+
 	// Use this for initialization
 	void Start () {
 		instance = this;
