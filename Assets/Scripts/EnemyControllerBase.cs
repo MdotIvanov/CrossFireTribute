@@ -10,6 +10,7 @@ public class EnemyControllerBase : MonoBehaviour {
 	public float minWaitShoot = 1;
 	public float maxWaitShoot = 2;
 	public GameObject enemyAmmoPrefab;
+    public AudioClip deathClip;
 
 	private Vector2 dir;
 
@@ -61,4 +62,9 @@ public class EnemyControllerBase : MonoBehaviour {
 			Destroy (collision.gameObject);
 		}
 	}
+
+    void OnDestroy()
+    {
+        AudioSource.PlayClipAtPoint(deathClip, new Vector3(0, 0, 0));
+    }
 }
