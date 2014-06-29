@@ -9,11 +9,11 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  - 61: {fileID: 6100000}
   - 114: {fileID: 11400000}
+  - 61: {fileID: 6100000}
   m_Layer: 0
-  m_Name: Enemy2
-  m_TagString: Enemey
+  m_Name: enemyBullet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24,9 +24,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+  m_LocalPosition: {x: 3.36390996, y: -2.33018136, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -39,8 +39,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .5, y: .5}
-  m_Center: {x: 0, y: 0}
+  m_Size: {x: .100000024, y: .200000048}
+  m_Center: {x: -5.96046448e-08, y: -1.1920929e-07}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -49,12 +49,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 223eaaf82efcc434ba38285f3ea58f31, type: 3}
+  m_Script: {fileID: 11500000, guid: f96eb562729294343a6d0efc64130614, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minWaitShoot: 1
-  maxWaitShoot: 2
-  enemyAmmoPrefab: {fileID: 100000, guid: d1360338c85b20748a7a828157febf54, type: 2}
+  forceMultiplier: 100
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -75,7 +73,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 1906545529
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e3ba62c1ceccdd64dabb94123751a584, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f59f666fc97197c4eba17b01ea1e71f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
