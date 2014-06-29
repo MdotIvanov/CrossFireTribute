@@ -16,23 +16,23 @@ public class HeroController : MonoBehaviour {
 	void Update() {
         if (Input.GetButtonDown("FireRight"))
         {
-			Instantiate(bulletPrefab, spawnRight.position, spawnRight.rotation);
+			Instantiate(bulletPrefab, spawnRight.position, Quaternion.Euler(0,0,270));
             audio.clip = fireClip;
             audio.Play();
 		} else if (Input.GetButtonDown("FireLeft")) {
-			Instantiate(bulletPrefab, spawnLeft.position, spawnLeft.rotation);
+			Instantiate(bulletPrefab, spawnLeft.position, Quaternion.Euler(0,0,90));
             audio.clip = fireClip;
             audio.Play();
         }
         else if (Input.GetButtonDown("FireUp"))
         {
-			Instantiate(bulletPrefab, spawnUp.position, spawnUp.rotation);
+			Instantiate(bulletPrefab, spawnUp.position, Quaternion.Euler(0,0,0));
             audio.clip = fireClip;
             audio.Play();
         }
         else if (Input.GetButtonDown("FireDown"))
         {
-			Instantiate(bulletPrefab, spawnDown.position, spawnDown.rotation);
+			Instantiate(bulletPrefab, spawnDown.position, Quaternion.Euler(180,0,0));
             audio.clip = fireClip;
             audio.Play();
         }
