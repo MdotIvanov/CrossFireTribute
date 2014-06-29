@@ -2,7 +2,13 @@ fileFormatVersion: 2
 guid: 0f14e654ce0c2ec4f8b2f4d7cf80fa64
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - spawnUp: {instanceID: 0}
+  - spawnDown: {instanceID: 0}
+  - spawnLeft: {instanceID: 0}
+  - spawnRight: {instanceID: 0}
+  - bulletPrefab: {instanceID: 0}
+  - startClip: {fileID: 8300000, guid: 9bbd9e82d16791d4794abce1feafbcf7, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

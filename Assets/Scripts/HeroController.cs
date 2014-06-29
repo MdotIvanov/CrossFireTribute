@@ -8,14 +8,13 @@ public class HeroController : MonoBehaviour {
 	public Transform spawnUp, spawnDown, spawnLeft, spawnRight;
 	public GameObject bulletPrefab;
 
-
 	// Use this for initialization
 	void Start () {
-	
 	}
 
 	void Update() {
-		if (Input.GetButtonDown("FireRight")) {
+        if (Input.GetButtonDown("FireRight"))
+        {
 			Instantiate(bulletPrefab, spawnRight.position, spawnRight.rotation);
 		} else if (Input.GetButtonDown("FireLeft")) {
 			Instantiate(bulletPrefab, spawnLeft.position, spawnLeft.rotation);
