@@ -4,16 +4,16 @@ using System.Collections;
 public class PlayMusic : MonoBehaviour {
 
 	private static PlayMusic instance;
+	private int score = 0;
 
 	void OnGUI () {
-		if (GUI.Button (new Rect (25, 25, 100, 30), "Button")) {
-			// This code is executed when the Button is clicked
-		}
+		GUI.Label(new Rect (10, 10, 100, 20), "High Score " + score);
 	}
 
 	// Use this for initialization
 	void Start () {
 		instance = this;
+		score = 0;
 	}
 	
 	// Update is called once per frame
@@ -31,4 +31,11 @@ public class PlayMusic : MonoBehaviour {
 		instance.transform.position = pos;
 		instance.audio.PlayOneShot(clip);
 	}
+
+	public static void Score(int points)
+	{
+		if (!instance)	return;
+		instance.score += points;
+	}
+
 }

@@ -57,6 +57,7 @@ MonoBehaviour:
   maxWaitShoot: 5
   enemyAmmoPrefab: {fileID: 100000, guid: d1360338c85b20748a7a828157febf54, type: 2}
   deathClip: {fileID: 8300000, guid: 14afe6da7c1d8f2428ca7eb3c6c1ddbe, type: 3}
+  points: 5
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

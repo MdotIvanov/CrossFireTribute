@@ -9,6 +9,7 @@ public class EnemyControllerBase : MonoBehaviour {
 	public float maxWaitShoot = 2;
 	public GameObject enemyAmmoPrefab;
     public AudioClip deathClip;
+	public int points;
 
 	private Vector2 dir;
 
@@ -57,7 +58,9 @@ public class EnemyControllerBase : MonoBehaviour {
 	}
 
     void OnDestroy()
-    {		PlayMusic.Play (deathClip, transform.position);
-        
+    {		
+		PlayMusic.Play (deathClip, transform.position);
+
+		PlayMusic.Score (points);
     }
 }
