@@ -1545,6 +1545,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 581141980}
   - 68: {fileID: 581141979}
+  - 114: {fileID: 581141978}
   m_Layer: 0
   m_Name: BorderTop
   m_TagString: Border
@@ -1552,6 +1553,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &581141978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581141977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 1
 --- !u!68 &581141979
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -1654,6 +1669,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 585996604}
   - 68: {fileID: 585996603}
+  - 114: {fileID: 585996605}
   m_Layer: 0
   m_Name: BorderBottom
   m_TagString: Border
@@ -1685,6 +1701,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 985790456}
   m_RootOrder: 1
+--- !u!114 &585996605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 585996602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
+  horizontalSnap: 0
+  verticalSnap: 2
 --- !u!1 &605575799
 GameObject:
   m_ObjectHideFlags: 0
@@ -4315,6 +4345,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1410978142}
   - 68: {fileID: 1410978143}
+  - 114: {fileID: 1410978141}
   m_Layer: 0
   m_Name: BorderLeft
   m_TagString: Border
@@ -4322,6 +4353,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1410978141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1410978140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
+  horizontalSnap: 1
+  verticalSnap: 0
 --- !u!4 &1410978142
 Transform:
   m_ObjectHideFlags: 0
@@ -6335,6 +6380,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2124950917}
   - 68: {fileID: 2124950916}
+  - 114: {fileID: 2124950918}
   m_Layer: 0
   m_Name: BorderRight
   m_TagString: Border
@@ -6366,6 +6412,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 985790456}
   m_RootOrder: 3
+--- !u!114 &2124950918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2124950915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c852677e5e660647b69f3dd4cdf8551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
+  horizontalSnap: 2
+  verticalSnap: 0
 --- !u!1 &2144104595
 GameObject:
   m_ObjectHideFlags: 0
