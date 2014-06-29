@@ -4,6 +4,7 @@ using System.Collections;
 public class EnemyAmmo : MonoBehaviour {
 	
 	public float forceMultiplier = 100f;
+	private string[] destroyTags = { "Player", "Border" };
 	
 	// Use this for initialization
 	void Start () {
@@ -12,9 +13,15 @@ public class EnemyAmmo : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter2D(Collider2D other){
-		Destroy (gameObject);
-		if (other.gameObject.tag == "Player" ){
+		var otherTagName = other.gameObject.tag;
+
+
+		if (otherTagName == "Player" ){
 			Destroy (other.gameObject);
+		}
+
+		if (System.Array.IndexOf(destroyTags, otherTagName) != -1) {
+			Destroy(gameObject);
 		}
 	}
 }

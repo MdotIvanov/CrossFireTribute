@@ -1,9 +1,9 @@
-﻿﻿using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class HeroController : MonoBehaviour {
 	
-	//public float force; 
+	public float force = 2; 
 	public float speed; 
 	public Transform spawnUp, spawnDown, spawnLeft, spawnRight;
 	public GameObject bulletPrefab;
@@ -50,6 +50,7 @@ public class HeroController : MonoBehaviour {
 		{
 			//rigidbody2D.AddForce(Mathf.Sign(x) * Vector2.right * force);
 			pos.x += Mathf.Sign(x) * speed;
+
 			transform.rotation = Quaternion.Euler(0,0,270);
 		}if(x < 0.0f)
 		{
