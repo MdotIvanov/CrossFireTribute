@@ -7,6 +7,7 @@ public class HeroController : MonoBehaviour {
 	public float speed; 
 	public Transform spawnUp, spawnDown, spawnLeft, spawnRight;
 	public GameObject bulletPrefab;
+    public AudioClip fireClip;
 
 	// Use this for initialization
 	void Start () {
@@ -16,13 +17,25 @@ public class HeroController : MonoBehaviour {
         if (Input.GetButtonDown("FireRight"))
         {
 			Instantiate(bulletPrefab, spawnRight.position, spawnRight.rotation);
+            audio.clip = fireClip;
+            audio.Play();
 		} else if (Input.GetButtonDown("FireLeft")) {
 			Instantiate(bulletPrefab, spawnLeft.position, spawnLeft.rotation);
-		} else if (Input.GetButtonDown("FireUp")) {
+            audio.clip = fireClip;
+            audio.Play();
+        }
+        else if (Input.GetButtonDown("FireUp"))
+        {
 			Instantiate(bulletPrefab, spawnUp.position, spawnUp.rotation);
-		} else if (Input.GetButtonDown("FireDown")) {
+            audio.clip = fireClip;
+            audio.Play();
+        }
+        else if (Input.GetButtonDown("FireDown"))
+        {
 			Instantiate(bulletPrefab, spawnDown.position, spawnDown.rotation);
-		}
+            audio.clip = fireClip;
+            audio.Play();
+        }
 	}
 
 	// Update is called once per frame
