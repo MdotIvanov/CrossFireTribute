@@ -3,17 +3,17 @@ using System.Collections;
 
 public class BulletController : MonoBehaviour {
 
+	public float forceMultiplier = 100f;
+
 	// Use this for initialization
 	void Start () {
-		//var dir = transform.rotation * Vector3.forward;
-		//var dir2d = new Vector2 (dir.x, dir.y);
-		//dir2d.Normalize ();
 		var dir = transform.rotation * Vector2.up;
-		rigidbody2D.AddForce (dir * 100);
+		rigidbody2D.AddForce (dir * forceMultiplier);
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.gameObject.tag != "Player" ){
+			Destroy (gameObject);
+		}
 	}
 }

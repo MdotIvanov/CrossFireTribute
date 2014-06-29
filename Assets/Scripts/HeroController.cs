@@ -49,4 +49,8 @@ public class HeroController : MonoBehaviour {
 		transform.position = pos;
 		transform.rotation = Quaternion.identity;
 	}
+
+	void OnTriggerEnter(Collider other){
+		Destroy (this.rigidbody2D);
+		}
 }
