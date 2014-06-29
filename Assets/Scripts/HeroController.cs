@@ -81,6 +81,6 @@ public class HeroController : MonoBehaviour {
 
     void OnDestroy()
     {
-        AudioSource.PlayClipAtPoint(deathClip, new Vector3(0, 0, 0));
+		PlayMusic.Play (deathClip, transform.position);
     }
 }

@@ -4,8 +4,6 @@ using System.Collections;
 public enum BulletDirection { Left, Right, Up, Down }
 
 public class EnemyControllerBase : MonoBehaviour {
-
-
 	public BulletDirection ammoDirection;
 	public float minWaitShoot = 1;
 	public float maxWaitShoot = 2;
@@ -47,11 +45,6 @@ public class EnemyControllerBase : MonoBehaviour {
 			ammo.rigidbody2D.AddForce(ammo.GetComponent<EnemyAmmo>().forceMultiplier * dir);
 		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	void OnTriggerEnter2D(Collider2D collision) {
 		if (collision.gameObject.tag == "Ammo") {
@@ -64,7 +57,7 @@ public class EnemyControllerBase : MonoBehaviour {
 	}
 
     void OnDestroy()
-    {
-        AudioSource.PlayClipAtPoint(deathClip, new Vector3(0, 0, 0));
+    {		PlayMusic.Play (deathClip, transform.position);
+        
     }
 }
